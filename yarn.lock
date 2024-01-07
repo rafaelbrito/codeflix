@@ -1845,7 +1845,7 @@
   resolved "https://registry.yarnpkg.com/@mui/types/-/types-7.2.12.tgz#602acbb5aa3eb56a31f569a19f87f75d33de5c01"
   integrity sha512-3kaHiNm9khCAo0pVe0RenketDSFoZGAlVZ4zDjB/QNZV0XiCj+sh1zkX0VVhQPgYJDlBEzAag+MHJ1tU3vf0Zw==
 
-"@mui/utils@^5.15.3":
+"@mui/utils@^5.14.16", "@mui/utils@^5.15.3":
   version "5.15.3"
   resolved "https://registry.yarnpkg.com/@mui/utils/-/utils-5.15.3.tgz#421043be5279d31ca9b221a6398feb7c9d61209b"
   integrity sha512-mT3LiSt9tZWCdx1pl7q4Q5tNo6gdZbvJel286ZHGuj6LQQXjWNAh8qiF9d+LogvNUI+D7eLkTnj605d1zoazfg==
@@ -1854,6 +1854,17 @@
     "@types/prop-types" "^15.7.11"
     prop-types "^15.8.1"
     react-is "^18.2.0"
+
+"@mui/x-data-grid@^6.18.7":
+  version "6.18.7"
+  resolved "https://registry.yarnpkg.com/@mui/x-data-grid/-/x-data-grid-6.18.7.tgz#1cd30bb95bc7fa2a32b4ac7dc3c26aaa48670013"
+  integrity sha512-K1A3pMUPxI4/Mt5A4vrK45fBBQK5rZvBVqRMrB5n8zX++Bj+WLWKvLTtfCmlriUtzuadr/Hl7Z+FDRXUJAx6qg==
+  dependencies:
+    "@babel/runtime" "^7.23.2"
+    "@mui/utils" "^5.14.16"
+    clsx "^2.0.0"
+    prop-types "^15.8.1"
+    reselect "^4.1.8"
 
 "@nicolo-ribaudo/eslint-scope-5-internals@5.1.1-v1":
   version "5.1.1-v1"
