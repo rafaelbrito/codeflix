@@ -5,7 +5,7 @@ interface Category {
   id: string;
   name: string;
   deleted_at: null | string;
-  is_valid: boolean;
+  is_active: boolean;
   created_at: string;
   updated_at: string;
   description: null | string;
@@ -16,7 +16,7 @@ const category: Category = {
   id: '1',
   name: 'test 1',
   deleted_at: null,
-  is_valid: true,
+  is_active: true,
   created_at: '2021-01-01 00:00:00',
   updated_at: '2021-01-01 00:00:00',
   description: 'test description'
